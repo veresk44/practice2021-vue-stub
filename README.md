@@ -1,24 +1,27 @@
-# practice2021-vue-stub
+# Проект Pockets
+## _Это учебный проект от компании SibDev по созданию приложения Pockets._
 
-## Project setup
-```
-npm install
-```
+Нашем проектом станет приложение для учета средств и получении простой аналитики по категориям расходов и доходов. 
+Приложение будет иметь 5 блоков.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- В первый пользователь будет вводить данные о доходах и расходах.
+- Второй соберет суммы затрат в определенных категориях и сведет их в удобную таблицу. 
+- Третий - блок Виджетов, он позволит ставить и отслеживать экономические цели.
+- Четвертый - покажет пользователю общий доход и расход.
+- А скрепит их вместе пятый - календарь с фильтрами.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Требования к проекту
+- Node.js актуальной версии (nodejs.org);
+- Yarn актуальной версии (yarnpkg.com), допустимо использовать npm (npmjs.com/get-npm).
+- Редактор кода
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Установка проекта
+- Склонируйте себе проект на компьютер
+- Установите себе все зависимости для проекта с помощью команды - npm install
+
+## Запуска проекта
+- Для разработки используйте команду - npm run serve
+- Для сборки проекта используйте команду - npm run build
+- Для запуска линтера используйте - npm run lint
